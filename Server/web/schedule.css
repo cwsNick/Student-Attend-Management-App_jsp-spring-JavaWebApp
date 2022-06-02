@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 4rem 0;
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.schedule table {
+  width: 100%;
+  max-width: 1400px;
+  border-style: none;
+}
+
+.schedule tr:nth-child(even) th {
+  color: #ccc;
+  font-weight: normal;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px 16px;
+}
+
+.schedule th {
+  font-weight: normal;
+}
+
+.schedule td {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4;
+  border-radius: 6px;
+  transition: opacity 0.3s ease;
+}
+
+.schedule td > span {
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+}
+

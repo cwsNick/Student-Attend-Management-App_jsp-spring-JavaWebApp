@@ -1,0 +1,138 @@
+.custom-select select {
+    background: rgba(255, 255, 255, .1);
+    background-color: #e8eeef;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #8a97a0;
+    height: 41px;
+    width: 100%;
+    padding: 10px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.custom-select select option {
+    padding: 30px;
+}
+/* */
+
+#css_table {
+      display:table;
+  }
+.css_tr {
+      display: table-row;
+  }
+.css_td {
+      display: table-cell;
+  }
+  
+input[type="text"],input[type="number"],input[type="datetime-local"]{
+    background: rgba(255, 255, 255, .1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+input[type="datetime-local"] {
+    padding: 2px;
+}
+
+input[type="text"]:focus {
+    background: #d2d9dd;
+}
+
+input[type=submit],
+button {
+    background: #4CAF50;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 4px 2px;
+    outline: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+input[type=submit]:hover,
+button:hover {
+    background: white;
+    color: black;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+.btnFunction {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.33s;
+    transition-duration: 0.33s;
+    cursor: pointer;
+}
+
+.btnUpdata,
+.btnAddOrder {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btnLogout {
+    border: none;
+    padding: 8px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.33s;
+    transition-duration: 0.33s;
+    cursor: pointer;
+    background-color: #ddd;
+    color: black;
+    width: 70px;
+}
+
+.btnLogout:hover {
+    width: 100%;
+    background-color: #555;
+    color: white;
+}
+
+.btnBack {
+    background-color: rgb(41, 119, 182);
+    color: white;
+}
+
+.btnDelete {
+    background-color: #f44336;
+    color: white;
+}
+
+.btnUpdata:hover,
+.btnDelete:hover,
+.btnAddOrder:hover,
+.btnBack:hover {
+    background-color: white;
+    color: black;
+}
